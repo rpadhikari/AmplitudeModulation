@@ -8,6 +8,9 @@ Va = 3.0 # Vpp of Audio wave
 Vc = 2.0 # Vpp of career wave
 m = Va/Vc
 # setting line styles
+set title 'Mediumwave, Bhainsepati Lalitpur'
+set xl 'Time (sec)'
+set yl 'Voltage (V)'
 set style line 1 lt 1 lw 0.1 lc rgb 'red'
 set style line 2 lt 1 lw 0.1 lc rgb 'blue'
 set style line 3 lt 1 lw 2 lc rgb 'black' 
